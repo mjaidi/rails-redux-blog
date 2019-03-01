@@ -1,4 +1,8 @@
 class PagesController < ApplicationController
-  def home
+  def react_blog
+    @posts = Post.all
+  end
+  def vue_blog
+    @posts = Post.all
   end
 end

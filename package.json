@@ -3,12 +3,27 @@
   "private": true,
   "dependencies": {
     "@rails/webpacker": "3.5",
+    "@vue/cli-plugin-pwa": "^3.4.1",
+    "axios": "^0.18.0",
     "babel-preset-react": "^6.24.1",
-    "bootstrap": "3",
+    "bootstrap": "4",
+    "history": "3",
     "jquery": "^3.3.1",
+    "popper.js": "^1.14.7",
     "prop-types": "^15.6.2",
     "react": "^16.6.1",
-    "react-dom": "^16.6.1"
+    "react-dom": "^16.6.1",
+    "react-redux": "^5.1.0",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-form": "^7.4.2",
+    "redux-logger": "^3.0.6",
+    "redux-promise": "^0.6.0",
+    "vue": "^2.6.7",
+    "vue-loader": "14.2.2",
+    "vue-router": "^3.0.2",
+    "vue-template-compiler": "^2.6.7",
+    "vuex": "^3.1.0"
   },
   "devDependencies": {
     "webpack-dev-server": "2.11.2"

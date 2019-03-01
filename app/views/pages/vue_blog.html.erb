@@ -1,0 +1,4 @@
+<% content_for :after_js do %>
+      <%= javascript_pack_tag 'vue' %>
+<% end %>
+<div id="root" data-posts="<%= @posts.to_json %>"></div>
